@@ -37,7 +37,6 @@ export class Component {
       evaluate: true,
       text1: await this.arg1.component.getValue(),
       text2: await this.arg2.component.getValue(),
-      pwd: this.config.pwd,
     };
   }
 }

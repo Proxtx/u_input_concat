@@ -1,10 +1,4 @@
 {
   "type": "concat",
-  "config": {
-    "pwd": {
-      "type": "text",
-      "placeholder": "Password",
-      "name": "Password"
-    }
-  }
+  "config": {}
 }
