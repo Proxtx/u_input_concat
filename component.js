@@ -9,13 +9,13 @@ export class Component {
   async init() {
     await uiBuilder.ready(this.arg1);
     await uiBuilder.ready(this.arg2);
-    this.arg1.component.inputDefinition({
+    await this.arg1.component.inputDefinition({
       type: "text",
       name: "Text 1",
       placeholder: "Text",
     });
 
-    this.arg2.component.inputDefinition({
+    await this.arg2.component.inputDefinition({
       type: "text",
       name: "Text 2",
       placeholder: "Text",
